@@ -1,0 +1,74 @@
+.profile__container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+  background-image: url("../../assets/Home/bg.png");
+}
+
+.profile__parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+
+.profile__details__name {
+  font-size: 24px;
+}
+
+.profile__details__role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+.profile__details__role h1 {
+  font-size: 40px;
+}
+.profile__role__tagline {
+  color: var(--black);
+  font-size: 19px;
+}
+.primary__text {
+  color: var(--black);
+}
+.highlighted__text {
+  color: var(--dark-orange);
+}
+.profile__options .btn--highlighted {
+  margin: 0 0 0 28px;
+}
+
+.profile__options .btn--highlighted:hover {
+  margin: 0 0 0 28px;
+  background-color: cornsilk;
+  color: #111;
+}
+
+.profile__picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0px 0px var(--black);
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0px 0 100px;
+}
+
+.prfile__picture__background {
+  height: 92%;
+  width: 92%;
+  background-image: url(../../assets/Home/portfolio.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.colz-icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
